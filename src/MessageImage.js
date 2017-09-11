@@ -17,6 +17,7 @@ export default class MessageImage extends React.Component {
             style: styles.imageActive,
           }}
           {...this.props.lightboxProps}
+          {...this.props.currentMessage}
         >
           <Image
             {...this.props.imageProps}
